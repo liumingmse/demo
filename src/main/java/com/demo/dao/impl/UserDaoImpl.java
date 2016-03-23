@@ -40,7 +40,6 @@ public class UserDaoImpl implements UserDao {
 	
 	public void persist(AcctUser entity) {
 		this.getCurrentSession().persist(entity);
-
 	}
 
 	
